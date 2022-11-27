@@ -1,0 +1,187 @@
+body {
+    font-family: 'Roboto';
+}
+button:hover {
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+}
+.links .color-text {
+color: #2E2F42;
+}
+.links .color-text:hover , 
+.links .color-text:focus {
+    color: #4D5AE5;
+}
+a {
+    text-decoration: none;
+}
+.web {
+    color: #4D5AE5;
+    font-weight: 700;
+}
+.studio {
+    color: #434455;
+    font-weight: 700;
+}
+.color-text {
+    color: #2E2F42;
+    font-weight: 700;
+}
+
+.contasts {
+    color: #434455;
+}
+h1 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+button {
+    width: 170px;
+    height: 51px;
+    left: 635px;
+    top: 540px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.btn {
+    color: #FFFFFF;
+    margin: auto;
+    display: block;
+}
+.btn-ptf {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #434455;
+}
+ul {
+    list-style: none;
+}
+.text-p {
+     background-color:#4D5AE5 ;
+        width: 296px;
+        height: 96px;
+        left: 32px;
+        top: 40px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #F4F4FD;
+}
+.li {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 264px;
+    height: 104px;
+    left: 156px;
+    top: 795px;
+}
+h3 {
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.p {
+    color: #434455;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.h2 {
+   
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+.main {
+    background-color: #2E2F42;
+}
+.h3 {
+    font-weight: 500;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.h3-team {
+    width: 162px;
+    height: 40px;
+    left: 639px;
+    top: 1671px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.name {
+    width: 135px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+.work {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.li2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 32px;
+        gap: 32px;
+        width: 264px;
+        height: 380px;
+        left: 156px;
+        top: 1783px;
+}
+footer {
+    background-color: #2E2F42;
+}
+.studio-footer {
+    color: #F4F4FD;
+}
+.text {
+color: #E7E9FC;
+letter-spacing: 0.02em;
+width: 264px;
+height: 110px;
+left: 156px;
+top: 1864px;
+}
