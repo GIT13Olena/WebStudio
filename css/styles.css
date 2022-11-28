@@ -2,10 +2,10 @@ body {
     font-family: 'Roboto';
 }
 button:hover {
-    background: #F4F4FD;
+    background: #404BBF;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    color: #4D5AE5;
+    color: #F4F4FD;
 }
 .links .color-text {
 color: #2E2F42;
@@ -14,27 +14,38 @@ color: #2E2F42;
 .links .color-text:focus {
     color: #4D5AE5;
 }
+.cnt .contasts:hover ,
+.cnt .contasts:focus {
+   color: #4D5AE5;
+}
 a {
     text-decoration: none;
 }
 .web {
+    font-family: 'Raleway';
     color: #4D5AE5;
     font-weight: 700;
 }
 .studio {
+    font-family: 'Raleway';
     color: #434455;
     font-weight: 700;
 }
 .color-text {
+    font-family: 'Roboto';
+    font-style: normal;
     color: #2E2F42;
     font-weight: 700;
 }
 
 .contasts {
     color: #434455;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 h1 {
     color: #FFFFFF;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 56px;
@@ -47,16 +58,20 @@ button {
     height: 51px;
     left: 635px;
     top: 540px;
-    background: #4D5AE5;
+    background: #E7E9FC;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 .btn {
-    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #4D5AE5;
     margin: auto;
     display: block;
 }
 .btn-ptf {
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -66,18 +81,7 @@ button {
 ul {
     list-style: none;
 }
-.text-p {
-        background-color:#4D5AE5 ;
-        width: 296px;
-        height: 96px;
-        left: 32px;
-        top: 40px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #F4F4FD;
-}
+
 .li {
     flex-direction: column;
     align-items: flex-start;
@@ -97,24 +101,27 @@ h3 {
 }
 .p {
     color: #434455;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
 .h2 {
-   
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
         line-height: 40px;
         text-align: center;
-        
         text-transform: capitalize;
         color: #2E2F42;
 }
 .main {
     background-color: #2E2F42;
+}
+.l1-team {
+ background-color: #FFFFFF;
 }
 .h3 {
     font-weight: 500;
@@ -127,10 +134,7 @@ h3 {
     background-color: #F4F4FD;
 }
 .h3-team {
-    width: 162px;
-    height: 40px;
-    left: 639px;
-    top: 1671px;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -178,6 +182,8 @@ footer {
     color: #F4F4FD;
 }
 .text {
+font-family: 'Roboto';
+font-style: normal;
 color: #E7E9FC;
 letter-spacing: 0.02em;
 width: 264px;
