@@ -1,38 +1,45 @@
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
-button:hover {
-    background: #404BBF;
+.btn:hover, .btn:focus {
+    background-color: #404BBF;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     color: #F4F4FD;
+}
+
+.btnh:hover, .btnh:focus  {
+        background-color: #404BBF;
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        color: #F4F4FD;
 }
 .links .color-text {
 color: #2E2F42;
 }
 .links .color-text:hover , 
 .links .color-text:focus {
-    color: #4D5AE5;
+    color: #404BBF;
 }
 .cnt .contasts:hover ,
 .cnt .contasts:focus {
-   color: #4D5AE5;
+   color: #404BBF;
 }
 a {
     text-decoration: none;
 }
 .web {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
     font-weight: 700;
 }
 .studio {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     color: #434455;
     font-weight: 700;
 }
 .color-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     color: #2E2F42;
     font-weight: 700;
@@ -40,12 +47,12 @@ a {
 
 .contasts {
     color: #434455;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
 h1 {
     color: #FFFFFF;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 56px;
@@ -53,7 +60,8 @@ h1 {
     text-align: center;
     letter-spacing: 0.02em;
 }
-button {
+.btn {
+    font-size: larger;
     width: 170px;
     height: 51px;
     left: 635px;
@@ -63,15 +71,36 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+.btnh {
+        font-size: larger;
+        width: 170px;
+        height: 51px;
+        left: 635px;
+        top: 540px;
+        background: #4D5AE5;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor: pointer;
+        color: #fff;
+        margin: auto;
+            display: block;
+}
+.btnh:hover .btnh:focus {
+background-color: #404BBF;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #F4F4FD;
+}
+
 .btn {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: #4D5AE5;
     margin: auto;
     display: block;
 }
 .btn-ptf {
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -94,6 +123,7 @@ ul {
 }
 h3 {
     color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -101,14 +131,14 @@ h3 {
 }
 .p {
     color: #434455;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
 .h2 {
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
@@ -125,6 +155,7 @@ h3 {
 }
 .h3 {
     font-weight: 500;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -134,7 +165,7 @@ h3 {
     background-color: #F4F4FD;
 }
 .h3-team {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -146,6 +177,7 @@ h3 {
 .name {
     width: 135px;
     height: 24px;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -153,6 +185,7 @@ h3 {
     color: #2E2F42;
 }
 .work {
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -182,7 +215,7 @@ footer {
     color: #F4F4FD;
 }
 .text {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 color: #E7E9FC;
 letter-spacing: 0.02em;
