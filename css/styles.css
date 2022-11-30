@@ -1,4 +1,5 @@
 body {
+    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 .btn:hover, .btn:focus {
@@ -53,26 +54,25 @@ a {
 h1 {
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 56px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
 }
 .btn {
-    font-size: larger;
-    width: 170px;
-    height: 51px;
-    left: 635px;
-    top: 540px;
+    font-size: 16px;
     background: #E7E9FC;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    width: 170px;
+    height: 51px;
+    left: 635px;
+    top: 540px;
 }
 .btnh {
-        font-size: larger;
+        font-size: 16px;
         width: 170px;
         height: 51px;
         left: 635px;
@@ -83,7 +83,7 @@ h1 {
         cursor: pointer;
         color: #fff;
         margin: auto;
-            display: block;
+        display: block;
 }
 .btnh:hover .btnh:focus {
 background-color: #404BBF;
@@ -94,14 +94,13 @@ background-color: #404BBF;
 
 .btn {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-size: 16px;
     color: #4D5AE5;
     margin: auto;
     display: block;
 }
 .btn-ptf {
         font-family: 'Roboto', sans-serif;
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
@@ -114,17 +113,11 @@ ul {
 .li {
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
     width: 264px;
-    height: 104px;
-    left: 156px;
-    top: 795px;
 }
 h3 {
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -132,14 +125,12 @@ h3 {
 .p {
     color: #434455;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
 .h2 {
         font-family: 'Roboto', sans-serif;
-        font-style: normal;
         font-weight: 600;
         font-size: 36px;
         line-height: 40px;
@@ -156,7 +147,6 @@ h3 {
 .h3 {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -166,7 +156,6 @@ h3 {
 }
 .h3-team {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 40px;
@@ -178,7 +167,6 @@ h3 {
     width: 135px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -186,15 +174,11 @@ h3 {
 }
 .work {
         font-family: 'Roboto', sans-serif;
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #434455;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
 }
 .li2 {
         display: flex;
@@ -202,11 +186,6 @@ h3 {
         justify-content: center;
         align-items: center;
         padding: 0px 0px 32px;
-        gap: 32px;
-        width: 264px;
-        height: 380px;
-        left: 156px;
-        top: 1783px;
 }
 footer {
     background-color: #2E2F42;
@@ -216,7 +195,6 @@ footer {
 }
 .text {
 font-family: 'Roboto', sans-serif;
-font-style: normal;
 color: #E7E9FC;
 letter-spacing: 0.02em;
 width: 264px;
