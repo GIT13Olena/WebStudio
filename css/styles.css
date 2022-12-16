@@ -51,6 +51,7 @@ a {
     color: #434455;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    
 }
 h1 {
     color: #FFFFFF;
@@ -147,7 +148,6 @@ padding-bottom: 72px;
 }
 .main {
 background-color: #2E2F42;
-width: 1158px;
 }
 .l1-team {
 background-color: #FFFFFF;
@@ -220,18 +220,18 @@ img {
 .header-a {
     display: flex;
    padding-right: 77px;
-   padding-left: 156px ;
+   padding-left: 156px;
    align-items: center;
 
 }
 .list-ul {
     display: flex;
     padding-top: 24px;
+    
 }
 .header-list-item {
     display: inline;
     padding-right: 40px;
-    
 }
 .list-ul-two {
     margin-left: auto;
@@ -254,8 +254,7 @@ padding-right: 40px;
 }
 .conteiner {
     width: 1158px;
-    padding-left: 0 15px;
-    padding-right: 0 15px;
+    padding-right:  15px;
     margin: auto;
 }
 .ul-hm {
