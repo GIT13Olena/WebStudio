@@ -74,7 +74,7 @@ h1 {
     cursor: pointer;
     width: 170px;
     left: 635px;
-    
+    border: none;
 }
 .btnh {
 font-size: 18px;
@@ -90,6 +90,7 @@ display: block;
 margin: auto;
 margin-top: 48px;
 padding: 16px 16px;
+border: none;
 }
 .btnh:hover .btnh:focus {
 background-color: #404BBF;
@@ -281,7 +282,7 @@ padding-right: 40px;
     column-gap: 24px;
 }
 .ul-text {
-    
+
 }
 .li {
     padding: 10px;
