@@ -64,6 +64,7 @@ h1 {
     width: 570px;
     display: block;
     margin: auto;
+    
 }
 .btn {
     font-size: 16px;
@@ -102,6 +103,14 @@ background-color: #404BBF;
     color: #4D5AE5;
     margin: auto;
     display: block;
+    padding: 12px 24px;
+}
+.btn-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
+    justify-content: center;
+    padding-top: 108px;
 }
 .btn-ptf {
         font-family: 'Roboto', sans-serif;
@@ -148,10 +157,20 @@ padding-bottom: 72px;
 }
 .main {
 background-color: #2E2F42;
+height: 603px;
 }
 .l1-team {
 background-color: #FFFFFF;
 text-align: center;
+}
+.ul-main {
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    display: flex;
+    width: 1158px;
+    justify-content: center;
+    box-sizing: border-box;
 }
 .h3 {
 font-weight: 500;
@@ -162,6 +181,7 @@ line-height: 24px;
 }
 .team {
 background-color: #F4F4FD;
+padding-bottom: 120px;
 }
 .h3-team {
 font-family: 'Roboto', sans-serif;
@@ -219,22 +239,25 @@ img {
 }
 .header-a {
     display: flex;
-   padding-right: 77px;
    padding-left: 156px;
    align-items: center;
-
+   padding-right: 77px;
+}
+.header-n {
+    padding-right: 331px;
 }
 .list-ul {
     display: flex;
     padding-top: 24px;
-    
 }
 .header-list-item {
     display: inline;
     padding-right: 40px;
+    
 }
 .list-ul-two {
     margin-left: auto;
+    
 }
 .header-list-item-two {
     display: inline;
@@ -244,13 +267,8 @@ padding-right: 40px;
 
 .ul-section {
     display: flex;
-    width: 1158px;
     justify-content: center;
     box-sizing: border-box;
-   flex-wrap: wrap;
-   row-gap: 48px;
-   column-gap: 24px;
-   padding-bottom: 72px;
 }
 .conteiner {
     width: 1158px;
@@ -261,6 +279,9 @@ padding-right: 40px;
     display: flex;
     justify-content: center;
     column-gap: 24px;
+}
+.ul-text {
+    
 }
 .li {
     padding: 10px;
