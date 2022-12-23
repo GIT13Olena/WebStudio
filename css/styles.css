@@ -34,13 +34,15 @@ a {
 .web {
     font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .studio {
     font-family: 'Raleway', sans-serif;
     color: #434455;
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .color-text {
@@ -103,6 +105,7 @@ margin: auto;
 margin-top: 48px;
 padding: 16px 16px;
 border: none;
+padding-bottom: 192px 0 ; 
 }
 
 .btnh:hover .btnh:focus {
@@ -124,9 +127,9 @@ background-color: #404BBF;
 .btn-list {
     display: flex;
     gap: 24px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     justify-content: center;
-    padding-top: 108px;
+    
 }
 
 .btn-ptf {
@@ -176,12 +179,11 @@ margin-bottom: 72px;
 
 .section-h2 {
     padding-top: 120px;
-    padding-bottom: 94px;
+    padding-bottom: 120px;
 }
 
 .main {
 background-color: #2E2F42;
-height: 603px;
 padding-top: 192px;
 margin: 0 auto;
 }
@@ -196,7 +198,6 @@ text-align: center;
     row-gap: 48px;
     column-gap: 24px;
     display: flex;
-    width: 1158px;
     justify-content: center;
     box-sizing: border-box;
 }
@@ -214,7 +215,7 @@ margin-bottom: 8px;
 background-color: #F4F4FD;
 padding-bottom: 120px;
 padding-top: 120px;
-padding-bottom: 72px;
+padding-bottom: 120px;
 }
 
 .team-content {
@@ -275,6 +276,8 @@ width: 264px;
 left: 156px;
 top: 1864px;
 margin-top: 16px;
+font-size: 18px;
+font-weight: 800;
 }
 
 img {
@@ -288,7 +291,13 @@ img {
 }
 
 .header-section {
-    margin: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.none {
+ 
 }
 
 .header-n {
@@ -318,12 +327,12 @@ margin-right: 40px;
 
 .ul-section {
     display: flex;
-    justify-content: center;
     box-sizing: border-box;
 }
 
 .section-main {
 padding-bottom: 120px;
+padding-top: 108px;
 }
 
 .conteiner {
@@ -339,7 +348,7 @@ padding-bottom: 120px;
     column-gap: 24px;
 }
 .ul-text {
-
+ padding-top: 120px;
 }
 
 ul, ol, h1, h2, h3, h4, h5, h6, li, p {
