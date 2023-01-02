@@ -299,6 +299,9 @@ img {
 .header-a {
    align-items: center;
    margin-right: 77px;
+   font-family: 'Roboto', sans-serif;
+   color: #E7E9FC;
+   font-weight: 800;
 }
 
 .header-section {
