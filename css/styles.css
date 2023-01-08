@@ -212,9 +212,9 @@ text-align: center;
 }
 
 .ul-main {
-    flex-wrap: wrap;
-    row-gap: 48px;
-    column-gap: 24px;
+flex-wrap: wrap;
+row-gap: 48px;
+column-gap: 24px;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
