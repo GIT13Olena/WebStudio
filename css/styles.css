@@ -156,9 +156,9 @@ list-style: none;
 }
 
 .li {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 264px;
+flex-direction: column;
+align-items: flex-start;
+width: 264px;
 }
 
 h3 {
@@ -329,7 +329,6 @@ img {
 
 .header-list-item {
     display: inline;
-    
 }
 
 .list-ul-two {
@@ -362,6 +361,7 @@ padding-top: 108px;
     justify-content: center;
     column-gap: 24px;
 }
+
 .ul-text {
  padding-top: 120px;
 }
@@ -434,10 +434,6 @@ ul, ol, h1, h2, h3, h4, h5, h6, li, p {
   padding-bottom: 120px;
 }
 
-.list-customers-pictures {
-
-}
-
 .list-iteam-icon{
     width: 264px;
     height: 112px;
@@ -461,7 +457,6 @@ ul, ol, h1, h2, h3, h4, h5, h6, li, p {
 .link-customers:hover , .link-customers:focus {
     fill: #404BBF;
     border: 1px solid #404BBF;
-
 }
 
 .footer-list-iteam-social-link:hover , .footer-list-iteam-social-link:focus {
