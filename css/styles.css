@@ -13,18 +13,19 @@ background-color: #404BBF;
 color: #F4F4FD;
 }
 
+
 .links .color-text {
 color: #2E2F42;
 }
 
 .links .color-text:hover , 
 .links .color-text:focus {
-color: #404BBF;
+    color: #404BBF;
 }
 
 .cnt .contasts:hover ,
 .cnt .contasts:focus {
-color: #404BBF;
+   color: #404BBF;
 }
 
 a {
@@ -410,7 +411,6 @@ ul, ol, h1, h2, h3, h4, h5, h6, li, p {
     height: 40px;
     border-radius: 50%;
     fill: #F4F4FD;
-    background: #4D5AE5;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
