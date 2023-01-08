@@ -11,8 +11,7 @@ color: #F4F4FD;
 .btnh:hover, .btnh:focus  {
 background-color: #404BBF;
 color: #F4F4FD;
-}
-
+} 
 
 .links .color-text {
 color: #2E2F42;
@@ -131,7 +130,8 @@ color: #F4F4FD;
 font-family: 'Roboto', sans-serif;
 font-size: 18px;
 color: #4D5AE5;
-margin: autodisplay: block;
+margin: auto;
+display: block;
 padding: 12px 24px;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
