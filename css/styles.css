@@ -823,7 +823,7 @@ margin-bottom: 16px;
     }
 
 .modal-form-check {
-  visibility: hidden;   
+  opacity: 0;  
 }
 .modal-form-check:focus + .modal-form-check-desc::before {
     outline: 2px solid #404BBF;
@@ -843,8 +843,7 @@ margin-bottom: 16px;
     }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
-        background-image: url(/img/checkbox.jpg);
-        background-color: #4d5ae5;
+        background-image: url(../img/checkbox.jpg);
         background-position: center;
         background-size: 18px;
     }
