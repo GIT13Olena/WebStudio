@@ -88,7 +88,7 @@ body {
   color: #f4f4fd;
 }
 
-.logo-black {
+.color-black {
   color: #2e2f42;
 }
 
@@ -656,7 +656,7 @@ a.act {
   color: #404bbf;
 }
 
-.page-footer {
+.footer {
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: #2e2f42;
@@ -1386,7 +1386,7 @@ a.act {
     padding-bottom: 120px;
   }
 
-  .page-footer {
+  .footer {
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 0;
