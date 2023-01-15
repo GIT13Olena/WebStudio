@@ -210,13 +210,36 @@
           <h2 class="work-header">What Are We Doing</h2>
           <ul class="work-list">
             <li class="work-item">
-              <img src="img/image.jpg" width="360" alt="tablet" />
+              <picture>
+                <source
+                  srcset="./img/tablet1.webp 1x, ./img/tablet2.webp 2x"
+                  type="image/webp" />
+                <source
+                  srcset="./img/tablet.jpg 1x, ./img/tablet2.jpg 2x" />
+                <img src="./img/image.jpg" alt="tablet" width="360" /> 
+              </picture>
             </li>
             <li class="work-item">
-              <img src="img/image1.jpg" width="360" alt="phone" />
+              <picture>
+                <source
+                  srcset="./img/phone1.webp 1x, ./img/phone2.webp 2x"
+                  type="image/webp" />
+                <source srcset="./img/phone1.jpg 1x, ./img/phone2.jpg 2x" />
+                <img src="img/image1.jpg" alt="phone" width="360" />
+              </picture>
             </li>
             <li class="work-item">
-              <img src="img/image2.jpg" width="360" alt="lap.top" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/laptop1.webp 1x, ./img/laptop2.webp 2x"
+                  type="image/webp" />
+                <source srcset="./img/laptop1.jpg 1x, ./img/laptop2.jpg 2x" />
+                <img
+                  src="img/image2.jpg"
+                  alt="lap.top" 
+                  width="360" />
+              </picture>
             </li>
           </ul>
         </div>
@@ -226,7 +249,23 @@
           <h2 class="team-header">our team</h2>
           <ul class="team-list">
             <li class="team-item">
-              <img src="img/image3.jpg" width="264" alt="user.photo1" />
+               <picture>
+                <source
+                  srcset="
+                    ./img/Mark1.webp    1x,
+                    ./img/Mark2.webp 2x
+                  "
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./img/Mark1.jpg 1x,
+                    ./img/Mark2.jpg 2x
+                  " />
+                <img
+                  src="img/image3.jpg"
+                  alt="user.photo1"
+                  width="264" />
+              </picture>
               <div class="team-img-descr">
                 <h3 class="team-header-item">Mark Guerrero</h3>
                 <p class="team-list-item-text">Product Designer</p>
@@ -265,7 +304,23 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="img/image4.jpg" width="264" alt="user.photo2" />
+               <picture>
+                <source
+                  srcset="
+                    ./img/Tom1.webp    1x,
+                    ./img/Tom2.webp 2x
+                  "
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./img/Tom1.jpg 1x,
+                    ./img/Tom2.jpg 2x
+                  " />
+                <img
+                  src="img/image4.jpg"
+                  alt="user.photo2"
+                  width="264" />
+              </picture>
               <div class="team-img-descr">
                 <h3 class="team-header-item">Tom Ford</h3>
                 <p class="team-list-item-text">Frontend Developer</p>
@@ -303,8 +358,24 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
-              <img src="img/image5.jpg" width="264" alt="user.photo3" />
+            <li class="team-item">              
+              <picture>
+                <source
+                  srcset="
+                    ./img/Camila1.webp    1x,
+                    ./img/Camila2.webp 2x
+                  "
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./img/Camila1.jpg 1x,
+                    ./img/Camila2.jpg 2x
+                  " />
+                <img
+                  src="img/image5.jpg"
+                  alt="user.photo3"
+                  width="264" />
+              </picture>
               <div class="team-img-descr">
                 <h3 class="team-header-item">Camila Garcia</h3>
                 <p class="team-list-item-text">Marketing</p>
@@ -343,7 +414,23 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="img/image6.jpg" width="264" alt="user.photo4" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/Daniel1.webp    1x,
+                    ./img/Daniel2.webp 2x
+                  "
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./img/Daniel1.jpg 1x,
+                    ./img/Daniel2.jpg 2x
+                  " />
+                <img
+                  src="img/image6.jpg"
+                 alt="user.photo4"
+                  width="264" />
+              </picture>
               <div class="team-img-descr">
                 <h3 class="team-header-item">Daniel Wilson</h3>
                 <p class="team-list-item-text">UI Designer</p>

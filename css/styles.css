@@ -527,7 +527,7 @@ a.act {
 .team {
   background-color: #f4f4fd;
   padding-top: 96px;
-  padding-bottom: 96px;
+  padding-bottom: 128px;
 }
 
 .team-item {
@@ -1147,7 +1147,7 @@ a.act {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../img/image-h1.jpg");
+      url("../img/image-h1-mobile.jpg");
     padding: 112px 137px;
   }
 
@@ -1310,7 +1310,7 @@ a.act {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../img/image-h1.jpg");
+      url("../img/image-h1-tablet.jpg");
     padding-top: 192px;
     padding-bottom: 192px;
   }
@@ -1436,7 +1436,7 @@ a.act {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../img/image-h1.jpg");
+      url("../img/image-h1-mobile.jpg");
   }
 }
 
@@ -1448,7 +1448,7 @@ a.act {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../img/image-h1.jpg");
+      url("../img/image-h1-tablet.jpg");
   }
 }
 
@@ -1460,6 +1460,6 @@ a.act {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../img/image-h1.jpg");
+      url("../img/image-h1-tablet.jpg");
   }
 }
